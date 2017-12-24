@@ -1,6 +1,6 @@
 ---
 title: When ceylon.test met meta-model
-author: Tom&#225;&#353; Hradec
+author: Tomáš Hradec
 layout: blog
 unique_id: blogpage
 tab: blog

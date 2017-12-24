@@ -13,7 +13,7 @@ The Ceylon IDE is a plugin for [Eclipse][eclipse]. The IDE project was
 initiated by David Festal from [SERLI](http://www.serli.com/), a french 
 software company contributing to the Ceylon project.
 
-<img src="/images/screenshots/1.2.0/teaser.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="743" height="330"/>
+<img src="/images/screenshots/1.2.0/teaser.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="743" height="330"/>
 
 Like everything we produce, Ceylon IDE is [open source](/code/licenses).
 
@@ -47,19 +47,19 @@ You can install Ceylon IDE (which includes the Ceylon compiler) either:
 After installing the plugin, go straight to `Help > Welcome to Ceylon`.
 
 <div style="text-align:center;">
-<img src="/images/screenshots/1.2.0/module-graph.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="50%" height="auto"/>
+<img src="/images/screenshots/1.2.0/module-graph.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="50%" height="auto"/>
 </div>
 
 <div style="text-align:center;">
-<img src="/images/screenshots/1.2.0/hierarchy.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="40%" height="auto"/>
-<img src="/images/screenshots/1.2.0/outline.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="40%" height="auto" style="vertical-align: top;"/>
+<img src="/images/screenshots/1.2.0/hierarchy.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="40%" height="auto"/>
+<img src="/images/screenshots/1.2.0/outline.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="40%" height="auto" style="vertical-align: top;"/>
 </div>
 
 <div style="text-align:center;">
-<img src="/images/screenshots/1.2.0/repo-explorer.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="35%" height="auto"/>
-<img src="/images/screenshots/1.2.0/hierarchy-view.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="30%" height="auto"/>
+<img src="/images/screenshots/1.2.0/repo-explorer.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="35%" height="auto"/>
+<img src="/images/screenshots/1.2.0/hierarchy-view.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="30%" height="auto"/>
 </div>
 
 <div style="text-align:center;">
-<img src="/images/screenshots/1.2.0/open.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="60%" height="auto"/>
+<img src="/images/screenshots/1.2.0/open.png" style="box-shadow: 0 0 10px #888;margin-left:5px;" width="60%" height="auto"/>
 </div>

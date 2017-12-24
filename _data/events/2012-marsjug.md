@@ -1,6 +1,6 @@
 ---
 title: 'Ceylon evening at Mars JUG'
-presentor: St&#233;phane &#201;pardaud
+presentor: Stéphane Épardaud
 event: Mars JUG
 event_date: 24 May 2012
 event_url: http://marsjug.org/#reunions

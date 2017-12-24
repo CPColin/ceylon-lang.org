@@ -8,7 +8,7 @@ author: Emmanuel Bernard
 ---
 # Edit a page (tips and tricks)
 
-#{page.table_of_contents}
+<toc>
 
 Pages are primarily written in Markdown. More complex ones may be written in haml. 
 Markdown has a very simple and human readable syntax which is described 

@@ -1,6 +1,6 @@
 ---
 title: 'Introduction to Ceylon'
-presentor: St&#233;phane &#201;pardaud
+presentor: Stéphane Épardaud
 event: JUG Switzerland
 event_date: 25 February 2013
 event_url: http://www.jug.ch/html/events/2013/ceylon.html

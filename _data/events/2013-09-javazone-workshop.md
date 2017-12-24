@@ -1,6 +1,6 @@
 ---
 title: 'Ceylon Workshop'
-presentor: St&#233;phane &#201;pardaud and Gavin King
+presentor: Stéphane Épardaud and Gavin King
 event: JavaZone 2013
 event_date: 10 September 2013
 event_url: http://jz13.java.no/workshops.html

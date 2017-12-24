@@ -1,6 +1,6 @@
 ---
 title: 'Ceylon hands-on at JUDCon Boston 2013'
-presentor: 'Gavin King, Emmanuel Bernard and St&#233;phane &#201;pardaud'
+presentor: 'Gavin King, Emmanuel Bernard and Stéphane Épardaud'
 event: JUDCon Boston 2013
 event_date: 10 June 2013
 event_url: http://www.jboss.org/events/JUDCon/2013/unitedstates/agenda/jbossworkshops.html

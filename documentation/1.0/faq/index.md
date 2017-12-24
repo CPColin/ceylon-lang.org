@@ -12,7 +12,7 @@ author: Emmanuel Bernard
 On this page you'll find answers to a few of the most 
 common questions about the Ceylon project.  
 
-#{page.table_of_contents}
+<toc>
 
 ## Basics
 

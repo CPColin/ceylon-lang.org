@@ -1,6 +1,6 @@
 ---
 title: 'Introduction to Ceylon'
-presentor: St&#233;phane &#201;pardaud
+presentor: Stéphane Épardaud
 event: JBUG Newcastle
 event_date: 9 October 2012
 event_url: https://community.jboss.org/wiki/JBUG2012Schedule

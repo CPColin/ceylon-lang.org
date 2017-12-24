@@ -84,7 +84,7 @@ to embed Unicode characters in your text.
      the base of the natural logarithm."
     Float e = calculateE();
 
-Even better, you can identity a Unicode character by its name.
+Even better, you can identify a Unicode character by its name.
 
 <!-- try-pre:
     Float calculateE() => 2.71828;

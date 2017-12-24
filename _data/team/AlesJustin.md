@@ -1,7 +1,7 @@
 ---
-name: Ale&#353; Justin
+name: Aleš Justin
 photo: /images/team/AlesJustin.jpg
-level: 10   
+level: 10
 ---
 
 Aleš Justin is Sr. Principal Software Engineer at JBoss by Red Hat.

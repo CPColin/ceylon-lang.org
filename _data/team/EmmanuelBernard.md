@@ -1,7 +1,7 @@
 ---
 name: Emmanuel Bernard
 photo: /images/team/EmmanuelBernard.jpg
-level: 10   
+level: 10
 ---
 Emmanuel Bernard is data platform architect at JBoss by Red Hat, is heavily involved in the JCP and leads several community projects of the Hibernate team.
 

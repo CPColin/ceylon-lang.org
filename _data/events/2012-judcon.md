@@ -1,6 +1,6 @@
 ---
 title: 'Introduction to the Ceylon programming language'
-presentor: St&#233;phane &#201;pardaud and Emmanuel Bernard
+presentor: Stéphane Épardaud and Emmanuel Bernard
 event: JUDCon Boston 2012
 event_date: 26 June 2012
 event_url: http://www.jboss.org/events/JUDCon/2012/boston/agenda/day2track1

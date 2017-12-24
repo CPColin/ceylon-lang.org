@@ -1,6 +1,6 @@
 ---
 title: 'Ceylon at DevConf 2015'
-presentor: Tom&#225;&#353; Hradec
+presentor: Tomáš Hradec
 event: DevConf 2015
 event_date: 7 February 2015
 event_url: http://sched.co/2B2T

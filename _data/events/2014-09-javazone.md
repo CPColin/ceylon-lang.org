@@ -1,6 +1,6 @@
 ---
 title: "Ceylon from here to infinity: the big picture and what's coming"
-presentor: St&#233;phane &#201;pardaud
+presentor: Stéphane Épardaud
 event: JavaZone 2014
 event_date: 11 September 2014
 event_url: http://2014.javazone.no/presentation.html?id=bab28836

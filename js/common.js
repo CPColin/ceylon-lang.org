@@ -119,10 +119,22 @@ function updateEditor(src){
 }
 
 function addTryButtons(){
-	jQuery("pre[data-language]").each(function(index, element){
-		var $elem = jQuery(element);
-		var lang = $elem.attr("data-language");
-		if (lang!="ceylon") return;
+	jQuery("code.language-ceylon").each(function(index, element){
+	    var $code = jQuery(element);
+		var $elem = jQuery(element.parentNode);
+		var lang = extractComment($elem, "lang:");
+		if (lang){
+		    lang = trimComment(lang);
+		    
+		    if (lang != "ceylon"){
+		        $code.removeClass("language-ceylon");
+		        
+		        if (lang != "none"){
+		            $code.addClass("language-" + lang);
+		        }
+		    }
+		}
+		if (!$code.hasClass("language-ceylon")) return;
 		var ttry = $elem.attr("data-try");
 		if (ttry=="false") return;
 		$elem.addClass("with-editor");
@@ -139,7 +151,7 @@ function addTryButtons(){
 					// See https://developer.mozilla.org/en-US/docs/Same_origin_policy_for_JavaScript
 					// We don't do it for localhost, though if localhost uses try.ceylon-lang.org it will not work and you
 					// need to start your browser with security checks disabled to test this on localhost
-					// Chrome would be "chromium-browser --disable-web-security" for example
+					// Chrome would be "chromium-browser --disable-web-security --user-data-dir" for example
 					if(document.domain != "localhost")
 						document.domain = "ceylon-lang.org";
 					$editorIFrame = jQuery("<iframe class='code-editor' src='https://try.ceylon-lang.org/index.html?embedded=true'>");

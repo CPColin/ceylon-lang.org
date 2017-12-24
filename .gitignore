@@ -21,3 +21,7 @@
 
 #RVM
 /.rvmrc
+
+#Ceylon
+/.exploded/
+/modules/

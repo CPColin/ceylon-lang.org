@@ -1,6 +1,6 @@
 ---
 title: How we test Ceylon
-author: St&#233;phane &#201;pardaud
+author: Stéphane Épardaud
 layout: blog
 unique_id: blogpage
 tab: blog

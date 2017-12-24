@@ -1,5 +1,5 @@
 ---
-name: Tom&#225;&#353; Hradec
+name: Tomáš Hradec
 photo: /images/team/TomasHradec.jpg
 level: 10
 ---

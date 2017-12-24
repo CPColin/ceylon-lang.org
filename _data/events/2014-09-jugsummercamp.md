@@ -1,6 +1,6 @@
 ---
 title: 'Ceylon d‘ici à l‘infini : tour d‘horizon et le futur'
-presentor: St&#233;phane &#201;pardaud
+presentor: Stéphane Épardaud
 event: Jub Summer Camp 2014
 event_date: 19 September 2014
 event_url: http://www.jugsummercamp.org/edition/5/presentation/1083

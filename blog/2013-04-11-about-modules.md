@@ -1,10 +1,10 @@
 ---
 title: About modules
-author: St&#233;phane &#201;pardaud
+author: Stéphane Épardaud
 layout: blog
 unique_id: blogpage
 tab: blog
-tags: [design interop herd]
+tags: [design, interop, herd]
 ---
 
 Modules, ah, modules. The albatross of Java. I frequently joke that modules are scheduled for Java N+1 where N moves forward with

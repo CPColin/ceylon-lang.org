@@ -1,6 +1,6 @@
 ---
 title: 'Ceylon Hackfest'
-presentor: Tom&#225;&#353; Hradec
+presentor: Tomáš Hradec
 event: DevConf 2014
 event_date: 7 February 2014
 event_url: http://developerconference2014.sched.org/event/4598469771d7173667aa16725e10da8a

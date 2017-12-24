@@ -1,7 +1,7 @@
 ---
 title: 'El lenguaje Ceylon y sus ventajas sobre Java'
 presentor: Enrique Zamudio
-event: SG Conference &amp; Expo 2012
+event: SG Conference & Expo 2012
 event_date: 21 June 2012
 event_url: http://sg.com.mx/sgce/2012/agenda
 event_logo_url: http://sg.com.mx/sgce/2012/sites/default/files/Banner%20SGCE%20520x80.jpg

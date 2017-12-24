@@ -1,6 +1,6 @@
 ---
 title: Ceylon Test Eclipse Plugin
-author: Tom&#225;&#353; Hradec
+author: Tomáš Hradec
 layout: blog
 unique_id: blogpage
 tab: blog

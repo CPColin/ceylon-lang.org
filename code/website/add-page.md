@@ -11,7 +11,7 @@ toc: true
 The best way to add and edit a page is to look how other pages are done and 
 start from here. The following page gives you some keys to understand the code.
 
-#{page.table_of_contents}
+<toc>
 
 You can build pages in two formats, Markdown (.md) and haml (`.html.haml`).
 The warmly recommend using Markdown.

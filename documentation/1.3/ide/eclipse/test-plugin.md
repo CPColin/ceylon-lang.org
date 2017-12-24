@@ -3,7 +3,7 @@ title: Ceylon Test Eclipse Plugin
 layout: eclipse13
 tab: documentation
 unique_id: docspage
-author: Tom&#225;&#353; Hradec
+author: Tomáš Hradec
 ---
 
 # #{page.title}

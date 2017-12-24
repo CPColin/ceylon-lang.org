@@ -2,8 +2,92 @@
 layout: code
 title: Building the website
 tab: code
-
+unique_id: codepage
 author: Emmanuel Bernard
+---
+
+# Port from Awestruct to Ceylon
+
+This fork is attempting to port the website from its current Awestruct architecture to one that uses
+the `ceylon.html` and (in-development) `ceylon.markdown` modules. The goal is to have a server
+module that developers can run while updating the code and an export module that generates static
+HTML for release.
+
+## Running the server module
+
+This project requires the `ceylon.markdown` module from my `CPColin/ceylon.markdown` repo.
+Once you have that project checked out and built, run the `org.ceylonlang.server` module and the
+server will start. Once the console says "Httpd started," you should be able to hit
+`localhost:8080` in your browser and see something pretty close to <http://ceylon-lang.org/>.
+
+## Main functionality
+
+- If a Markdown file exists at the requested path, after replacing the the trailing slash with
+  `.md`, it will be parsed by the `ceylon.markdown` module and rendered as `ceylon.html`
+  elements.
+- Certain HAML pages like `/`, `/download-archive/`, `/blog/`, and `/community/team/` have
+  been converted to Ceylon.
+- Static content like images, CSS, and JS are still served statically.
+- Some of the HAML in the `_layouts` directory has been implemented in the
+  `org.ceylonlang.site.layouts` package.
+- Some shared functionality has been implemented in the `org.ceylonlang.site.partials` package.
+- Pages can be analyzed to extract a table of contents comprised of links that anchor to each
+  heading element in the page.
+
+## Exporting the site to static HTML
+
+Run the `org.ceylonlang.exporter` module and relax for a bit while it converts the Markdown
+source and Ceylon pages to static HTML. Once it's finished, navigate to the new `_site` directory
+and run the following command to start a simple server: `python ../testSite.py 4242`. You should
+now be able to hit `localhost:4242` and see the exported site. Note that, since this is a Python
+simple server, the generated `.htacess` file will not be in effect.
+
+## Tasks to be done
+
+- [X] Reorganize the code into three modules: `site`, which defines what the site is, `server`,
+      which defines how to serve the site dynamically, and `exporter`, which exports the site as
+      static content.
+- [ ] Protect against path traversal attacks when serving static content and Markdown pages.
+      Since we plan to serve the site statically, we can put this off until later.
+- [x] Improve `run.ceylon` so all Ceylon pages can share a common endpoint.
+- [ ] Show correct 404 page when static content doesn't exist.
+      This can also be postponed, as long as the site is served statically.
+- [x] Automatically map requests to `index.md` when it exists.
+- [x] Port remaining (non-layout) HAML files to Ceylon.
+- [x] Implement remaining layouts.
+- [x] Properly map `/documentation/current/` to `/documentation/1.3/`.
+- [x] Implement a sitemap and restore page properties that deal with it.
+- [x] Convert `/data/urls.yml` to a more ceylonic format.
+- [x] Implement a module that exports the website as static HTML that can be released. The module
+      should also generate an `.htaccess` file, if possible.
+- [ ] Export the various index pages that live in the `/blog/` directory.
+- [ ] Implement redirects under `/documentation/(version)/reference/` subdirectories.
+- [ ] Find a permanent solution for the SCSS to CSS conversion.
+- [ ] Speed up the export module, possibly by checking file modification times and skipping files
+      that have not been modified since they were last exported.
+- [x] Develop a test procedure for the static website. Python's `SimpleHttpServer` doesn't support
+      `.htaccess`, preventing proper exploration of the site.
+- [x] Implement pagination on `/blog/`.
+- [x] Fix blog post URL's to match current scheme.
+- [x] Implement blog post feeds.
+- [x] Properly identify which blog post feed is being linked to.
+- [x] Show author's bio when viewing blog posts by an author.
+- [x] Implement `/blog/authors/` and `/blog/tags/`.
+- [ ] Verify that deep links still anchor to their intended targets.
+- [ ] Handle deep linking where the target is raw HTML, instead of Markdown.
+- [x] Decode Markdown file headers that use HTML entities.
+- [ ] Update "How to Contribute" documentation, this file, and `RELEASE.md`.
+- [ ] Address remaining `TODO` comments.
+- [ ] Get `ceylon.markdown` into the Herd!
+- [ ] Get approval!
+- [ ] Remove old HAML and YML content.
+- [ ] (Maybe) Remove the `/_data/news/` directory, since the news section no longer exists.
+
+## Future improvements
+
+- [ ] Use partials for common elements in the sidebar.
+- [ ] Convert `/_data/` content to use a more ceylonic structure.
+
 ---
 
 # How to build [ceylon-lang.org](/)

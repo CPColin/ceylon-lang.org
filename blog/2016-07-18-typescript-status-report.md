@@ -1,5 +1,5 @@
 ---
-title: "Status Report: Ceylon TypeScript Loader GSoC project"
+title: Status Report: Ceylon TypeScript Loader GSoC project
 author: Lucas Werkmeister
 layout: blog
 unique_id: blogpage

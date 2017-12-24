@@ -1,8 +1,8 @@
 ---
 title: 'Ceylon en force at Devoxx FR 2013'
-presentor: St&#233;phane &#201;pardaud and Emmanuel Bernard
+presentor: Stéphane Épardaud and Emmanuel Bernard
 event: Devoxx France 2013
-event_date: 27-29 March 2013
+event_duration: 3
 event_url: http://www.devoxx.com/display/FR13/Programmes
 event_logo_url: http://www.devoxx.com/download/attachments/6816022/DevoxxFR-2012-banniere-400-155.png
 location: Paris, France

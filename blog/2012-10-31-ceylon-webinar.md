@@ -1,6 +1,6 @@
 ---
 title: Ceylon webinar Monday 5th of November
-author: St&#233;phane &#201;pardaud
+author: Stéphane Épardaud
 layout: blog
 unique_id: blogpage
 tab: blog

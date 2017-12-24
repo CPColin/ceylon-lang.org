@@ -1,8 +1,8 @@
 ---
 title: 'Introduction to Ceylon and Ceylon IDE'
-presentor: St&#233;phane &#201;pardaud and David Festal
+presentor: Stéphane Épardaud and David Festal
 event: Java User Groups
-event_date: 23-25 October 2012
+event_duration: 3
 location: Bordeaux, Toulouse, Montpellier, France
 effective_date: 20121023
 ---

@@ -1,8 +1,8 @@
 ---
 title: 'Ceylon USA East Coast JUG tour'
-presentor: Gavin King and St&#233;phane &#201;pardaud
+presentor: Gavin King and Stéphane Épardaud
 event: Java User Groups
-event_date: 14-23 October 2014
+event_duration: 10
 event_url: https://developer.jboss.org/docs/DOC-52715
 location: Connecticut, New-York, Greenville, Atlanta, Richmond, Boston, USA
 effective_date: 20141014

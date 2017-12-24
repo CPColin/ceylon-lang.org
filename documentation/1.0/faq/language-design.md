@@ -10,7 +10,7 @@ doc_root: ../..
 
 # FAQ about language design
 
-#{page.table_of_contents}
+<toc>
 
 You probably want to take the [Tour](#{page.doc_root}/tour) before 
 reading this, or the questions might not make sense.

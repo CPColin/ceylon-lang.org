@@ -1,8 +1,8 @@
 ---
 title: 'Ceylon at JavaOne'
-presentor: St&#233;phane &#201;pardaud
+presentor: Stéphane Épardaud
 event: JavaOne 2014
-event_date: 30 September - 1 October 2014
+event_duration: 2
 event_url: https://oracleus.activeevents.com/2014/connect/sessionDetail.ww?SESSION_ID=3078
 location: San Francisco, USA
 effective_date: 20140930

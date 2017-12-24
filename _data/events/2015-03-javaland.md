@@ -1,8 +1,8 @@
 ---
 title: 'Ceylon at JavaLand'
-presentor: St&#233;phane &#201;pardaud
+presentor: Stéphane Épardaud
 event: JavaLand 2015
-event_date: 24 - 26 March 2015
+event_duration: 3
 event_url: http://www.javaland.eu/1/javaland-2015/
 location: 'Brühl, DE'
 effective_date: 20150325
