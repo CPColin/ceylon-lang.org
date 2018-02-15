@@ -9,16 +9,15 @@ author: Emmanuel Bernard
 # Port from Awestruct to Ceylon
 
 This fork is attempting to port the website from its current Awestruct architecture to one that uses
-the `ceylon.html` and (in-development) `ceylon.markdown` modules. The goal is to have a server
-module that developers can run while updating the code and an export module that generates static
-HTML for release.
+the `ceylon.html` and `ceylon.markdown` modules. The goal is to have a server module that
+developers can run while updating the code and an export module that generates static HTML for
+release.
 
 ## Running the server module
 
-This project requires the `ceylon.markdown` module from my `CPColin/ceylon.markdown` repo.
-Once you have that project checked out and built, run the `org.ceylonlang.server` module and the
-server will start. Once the console says "Httpd started," you should be able to hit
-`localhost:8080` in your browser and see something pretty close to <http://ceylon-lang.org/>.
+Run the `org.ceylonlang.server` module and the server will start. Once the console says
+"Httpd started," you should be able to hit `localhost:8080` in your browser and see something
+pretty close to <http://ceylon-lang.org/>.
 
 ## Main functionality
 
@@ -78,7 +77,7 @@ simple server, the generated `.htacess` file will not be in effect.
 - [x] Decode Markdown file headers that use HTML entities.
 - [ ] Update "How to Contribute" documentation, this file, and `RELEASE.md`.
 - [ ] Address remaining `TODO` comments.
-- [ ] Get `ceylon.markdown` into the Herd!
+- [x] Get `ceylon.markdown` into the Herd!
 - [ ] Get approval!
 - [ ] Remove old HAML and YML content.
 - [ ] (Maybe) Remove the `/_data/news/` directory, since the news section no longer exists.
